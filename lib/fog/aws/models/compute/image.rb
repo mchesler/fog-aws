@@ -6,6 +6,7 @@ module Fog
 
         attribute :architecture
         attribute :block_device_mapping,  :aliases => 'blockDeviceMapping'
+        attribute :creation_date,         :aliases => 'creationDate'
         attribute :description
         attribute :location,              :aliases => 'imageLocation'
         attribute :owner_id,              :aliases => 'imageOwnerId'
